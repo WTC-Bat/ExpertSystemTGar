@@ -12,7 +12,8 @@ public class workSet {
 		String line;
 		sumObject.arrFill();
 		try (
-				FileInputStream fis = new FileInputStream("test.txt");
+				// FileInputStream fis = new FileInputStream("test.txt");
+				FileInputStream fis = new FileInputStream("tst2.txt");
 				InputStreamReader isr = new InputStreamReader(fis);
 				BufferedReader br = new BufferedReader(isr);
 			) {
@@ -39,6 +40,6 @@ public class workSet {
 
 			}
 			}
-		sumObject.print();	
+		sumObject.print();
 	}
 }
